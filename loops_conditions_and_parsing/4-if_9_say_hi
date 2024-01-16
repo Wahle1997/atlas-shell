@@ -10,7 +10,7 @@ do
     #if 9 say hi
     if [ $count == 9 ]
     then
-	echo "hi"
+	echo "Hi"
     fi
   (( count++ ))
 done
