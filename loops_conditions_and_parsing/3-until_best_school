@@ -1,10 +1,10 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # until looping best school
 
-count=10
+count=0
 
-until [$count==1]
+until [$count==10]
 do
   echo "best school"
-  count=$((count-1))
+  count++
 done
