@@ -6,5 +6,5 @@ count=0
 until [$count==10]
 do
   echo "$count best school"
-  count++
+  ((count++))
 done
