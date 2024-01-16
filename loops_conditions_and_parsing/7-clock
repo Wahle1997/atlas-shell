@@ -18,5 +18,6 @@ do
       echo  $minutes
    done
   ((hours++))
+  ((minutes++))
 done
 
