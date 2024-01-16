@@ -16,8 +16,8 @@ do
   while [ $minutes -le 59 ]
   do
       echo  $minutes
-   done
+      ((minutes++))
+  done
   ((hours++))
-  ((minutes++))
 done
 
