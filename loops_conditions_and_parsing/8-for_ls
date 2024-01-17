@@ -11,7 +11,7 @@
 #Do not display hidden files
 
 for file in *; do
-    if [[-f "$file"]]; then
+    if [[ -f "$file" ]]; then
 	content=$(echo "$file" | cut -d'-' -f2-)
 	echo "$content"
     fi
