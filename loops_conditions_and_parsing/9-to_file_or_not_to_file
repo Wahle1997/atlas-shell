@@ -3,7 +3,7 @@
 
 #Requirements:
 
-#You must use if and, else (case is forbidden)
+#You must use if and, else 
 #Your Bash script should check if the file exists and print:
 #if the file exists: school file exists
 #if the file does not exist: school file does not exist
